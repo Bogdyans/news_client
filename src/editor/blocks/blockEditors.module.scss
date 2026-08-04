@@ -1,0 +1,91 @@
+.textarea,
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+  font-size: 16px;
+
+  &:focus {
+    outline: 2px solid #4a90d9;
+    outline-offset: -1px;
+  }
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.toolbarButton {
+  min-width: 32px;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f7f7f7;
+  cursor: pointer;
+
+  &:hover {
+    background: #ececec;
+  }
+}
+
+.headingRow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input {
+    flex: 1;
+  }
+}
+
+.languageInput {
+  margin-bottom: 8px;
+  max-width: 240px;
+}
+
+.codeTextarea {
+  font-family: 'Courier New', Consolas, monospace;
+}
+
+.imagePreview {
+  img {
+    max-width: 100%;
+    max-height: 260px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+.fileName {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.error {
+  color: #b33;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.hint {
+  color: #888;
+  font-size: 14px;
+  margin-top: 4px;
+}

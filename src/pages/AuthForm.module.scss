@@ -1,0 +1,66 @@
+.page {
+  max-width: 360px;
+  margin: 64px auto;
+  padding: 0 16px;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  label {
+    font-size: 14px;
+    color: #555;
+  }
+
+  input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: inherit;
+  }
+}
+
+.submit {
+  margin-top: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #4a90d9;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+}
+
+.error {
+  color: #b33;
+  background: #fdecea;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.switchLink {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #555;
+
+  a {
+    color: #4a90d9;
+  }
+}

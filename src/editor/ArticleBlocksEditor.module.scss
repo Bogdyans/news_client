@@ -1,0 +1,26 @@
+.addToolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.addButton {
+  padding: 8px 12px;
+  border: 1px solid #4a90d9;
+  border-radius: 8px;
+  background: #fff;
+  color: #4a90d9;
+  cursor: pointer;
+  font-size: 14px;
+
+  &:hover {
+    background: #eef5fc;
+  }
+}
+
+.emptyHint {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 16px;
+}
